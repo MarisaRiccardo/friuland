@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prenota la tua visita</title>
+    <link rel="stylesheet" href="styles/style_pages.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap">
+
+</head>
+<body class="page">
+    <header>
+        <div class="top-menu" >
+            <div id="logo" >
+                <a href="/" ><img src="Template/styles/images/LogoFooter.png" alt="logo" width="350" height="200"></a>
+            </div>
+            <div id="menu" >
+                <nav>
+                    <ul>
+                        <li>
+                            <!-- "/": indirizzo della home page -->
+                            <a href="/" >Home</a>
+                        </li>
+                        <li>
+                            <a href="/prenota.html" >Order Online</a>
+                        </li>
+                        <li>
+                            <a href="/about.html" >About</a>
+                        </li>
+                        <li>
+                            <a href="/news" >News</a>
+                        </li>
+                        <li>
+                            <a href="/contact-us" >Contact Us</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="palloncini">
+            <img src="Template/styles/images/Palloncini.jpg" alt="palloncini" width="1500" height="500"></a>
+        </div>
+    </header>
+    <main class="prenota">
+        <h1>Friuland</h1>
+        <h2>Dove il divertimento è di casa!</h2>
+
+        <div class="form-wrapper">
+            <form>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input id="nome" name="nome" type="text" required />
+                </div>
+
+                <div>
+                    <label for="cognome">Cognome</label>
+                    <input id="cognome" name="cognome" type="text" required />
+                </div>
+
+                <div>
+                    <label for="data">Data di prenotazione</label>
+                    <input id="data" name="data" type="date" required />
+                </div>
+
+                <div>
+                    <label for="num_adulti">Adulti</label>
+                    <select id="num_adulti" name="num_adulti">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="num_ridotti">Ridotti</label>
+                    <select id="num_ridotti" name="num_ridotti">
+                        <option value="0">Nessun ridotto</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+
+                <div class="align-column">
+                    <label for="note">Descrivi la richiesta</label>
+                    <textarea
+                        id="note"
+                        name="note"
+                        rows="5"
+                        cols="20"
+                        placeholder="Inserisci la tua nota"
+                    ></textarea>
+                </div>
+
+                <input type="submit" value="Invia richiesta" />
+            </form>
+        </div>
+    </main>
+
+    <footer id="footer" >
+        <div class="div-footer">
+            <img src="Template/styles/images/LogoFooter.png" id="footer-logo" width="250" height="150">
+            <h3 class="titoliColonneFooter">Vieni a trovarci!</h3>
+            <p> Via di Qua, 17 <br>
+                000123 Udine<br>
+                <a href="mailto:info@email.com">info@email.com</a>
+            </p>
+        </div>
+        <div class="div-footer">
+            <h3  class="titoliColonneFooter">Menu Pagine</h3>
+            <ul>
+                <li><a href="/contatti.html">Contatti</a></li>
+                <li><a href="/servizi.html">Servizi</a></li>
+                <li><a href="/dove-siamo.html">Dove siamo</a></li>
+            </ul>
+        </div>
+        <div class="div-footer">
+            <h3 class="titoliColonneFooter">Menu Legale</h3>
+            <ul>
+                <li><a href="/termini.html">Termini</a></li>
+                <li><a href="/reclami.html">Reclami</a></li>
+                <li><a href="/sicurezza.html">Sicurezza</a></li>
+            </ul>
+        </div>
+        <div class="div-footer">
+            <ul class="flex-container">
+                <li> <a href="Instagram"><img class="footer-social" src="Template/styles/images/FBLogo.png" width="30" height="30"></a></li>
+                <li><a href="Facebook"><img class="footer-social" src="Template/styles/images/IGLogo.png" width="30" height="30"></a></li>
+                <li><a href="YouTube"><img class="footer-social" src="Template/styles/images/YTLogo.png" width="30" height="30"></a></li>
+            </ul>
+            
+            <img>
+
+            <div class="flex-container"> 
+                <ul >
+                    <li><a href="CookiePolicy">Cookie Policy</a></li>
+                    <li><a href="PrivacyPolicy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

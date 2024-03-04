@@ -1,0 +1,290 @@
+
+
+*
+{
+    font-family: 'Nunito', sans-serif;      
+
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+
+header
+{
+    width: 100%;
+    min-width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.top-menu
+{   
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0%;
+    padding: 0%;
+           
+}
+
+#logo
+{
+    width: 30%;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#menu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li
+{
+    margin-left: 5px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+#menu a
+{
+    color: rgb(169, 31, 233);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#menu a:hover
+{
+    color: rgb(169, 31, 233);
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+#ruota
+{   
+    display: flex;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+ }
+
+main
+{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(169, 31, 233);
+    width: 1200px;
+    height: auto;
+}
+
+h1 {
+    display: flex;
+    font-size: 40px;
+    padding-top: 15%;
+    margin-left: 20%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+
+h2 {
+    display: flex;
+    text-transform: uppercase;
+    font-size:large;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.articles__wrapper 
+{
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-items: center;
+    align-items: center;
+    background-color: rgb(255, 200, 255);
+    background-position: center;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    border-radius: 20%;
+}
+
+.articles article 
+{
+    width: 100%;
+    color: rgb(37, 37, 37);    
+}
+
+.articles img {
+    width: 400px;
+    height: 350px;
+    margin: 5%;
+    border-radius: 50%;
+    object-fit: cover;
+    
+   
+}
+
+.articles a {
+    text-decoration: none;
+    border: solid rgb(169, 31, 233);
+    background-color: rgb(169, 31, 233); 
+    color: white;
+}
+
+.articles h4 {
+    color: rgb(169, 31, 233);
+    font-size: 20px;
+
+}
+
+ .articles p {
+    width: 60%;
+    padding-left: 20%;
+ }
+ 
+#footer
+{
+    display: flex;
+}
+
+.div-footer
+{   
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.div-footer p
+{
+    color: rgb(169, 31, 233);
+}
+
+.div-footer a 
+{
+    text-decoration: none;
+    color: rgb(169, 31, 233);
+}
+
+.div-footer ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover
+{
+    font-style: italic;
+}
+
+.div-footer li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.div-footer li :visited
+{
+   color: rgb(169, 31, 233);
+}
+
+#footer-logo
+{
+    height: 100px;
+    width: 250px;
+    margin-left: 5%;
+}
+
+.footer-social
+{
+    height: 40px;
+    width: 40px;
+}
+
+.titoliColonneFooter
+{
+    color: rgb(169, 31, 233);
+}
+
+.flex-container 
+{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+@media (min-width: 768px)
+{
+        #menu li
+        {
+            display: inline;
+        }
+
+        #logo {
+            max-width: 50%;
+        }
+
+        header
+        {
+            height: 80vh;
+        }
+
+        .flex-container 
+        { 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;      
+        }
+
+        .homepage header {
+            height: 80vh;
+        }
+}
+

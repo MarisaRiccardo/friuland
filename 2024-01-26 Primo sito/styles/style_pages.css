@@ -1,0 +1,273 @@
+
+
+*
+{
+    font-family: 'Nunito', sans-serif;
+      
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: auto;
+    display: inline;
+}
+
+header
+{
+    width: 100%;
+    min-width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.top-menu
+{   
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding-top: 2%;
+           
+}
+
+#logo
+{
+    width: 30%;
+    max-width: 50%;
+    height: auto;
+    padding-top: 2%;
+    margin: 0;
+}
+
+#menu ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li
+{
+    margin-left: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: inline;
+}
+
+#menu a
+{
+    color: rgb(169, 31, 233);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+#menu a:hover
+{
+    color: rgb(169, 31, 233);
+    transition: color 0.5s;
+    text-decoration: none;
+}
+
+#palloncini {
+    display: flex;
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+main
+{
+    display: inline-block;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(169, 31, 233);
+    width: 1200px;
+}
+
+h1 {
+    display: flex;
+    font-size: 40px;
+    margin-left: 20%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+h2 {
+    display: flex;
+    text-transform: uppercase;
+    font-size:large;
+    padding-bottom: 5%;
+    margin-left: 20%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+#footer
+{
+    display: flex;
+}
+
+.div-footer
+{   
+    width: 60%;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.div-footer p
+{
+    color: rgb(169, 31, 233);
+}
+
+.div-footer a 
+{
+    text-decoration: none;
+    color: rgb(169, 31, 233);
+}
+
+.div-footer ul
+{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a:hover
+{
+    font-style: italic;
+}
+
+.div-footer li
+{
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+.div-footer li :visited
+{
+   color: rgb(169, 31, 233);
+}
+
+#footer-logo
+{
+    height: 100px;
+    width: 250px;
+    margin-left: 5%;
+}
+
+.footer-social
+{
+    height: 40px;
+    width: 40px;
+}
+
+.titoliColonneFooter
+{
+    color: rgb(169, 31, 233);
+}
+
+.flex-container 
+{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+/* FORM */
+main.prenota {
+    width: 1300px;
+    margin: 0, auto;
+}
+
+.form-wrapper label {
+    width: 50%;
+    display: inline-block;
+    text-align: left;
+}
+
+.form-wrapper div {
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap:nowrap;
+    justify-content: space-between;
+}
+
+.form-wrapper {
+    width: 600px;
+    margin-left: 30vw;
+    background-color: rgb(255, 200, 255);
+    padding: 3%;
+    border-radius: 5%;
+}
+
+.form-wrapper input,
+.form-wrapper select {
+    width: 50%;
+    padding: 4px;
+}
+
+.form-wrapper .align-column {
+    flex-direction:column;
+}
+
+.form-wrapper input[type="submit"] {
+    margin-left: 50%;
+}
+
+
+@media (min-width: 768px)
+{
+        #menu li
+        {
+            display: inline;
+        }
+
+        header
+        {
+            height: 80vh;
+        }
+
+        .flex-container 
+        { 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;      
+        }
+
+        .homepage header {
+            height: 80vh;
+        }
+}
+
